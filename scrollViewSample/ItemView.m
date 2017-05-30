@@ -18,7 +18,7 @@
 
 #define CELL_WIDTH              270.0f
 
-@interface ItemView(){
+@interface ItemView() < UIScrollViewDelegate >{
     NSInteger cellWidth;
     NSInteger cellSpace;            // 쿠폰 Space
 }
